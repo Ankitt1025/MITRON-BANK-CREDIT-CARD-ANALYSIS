@@ -1,55 +1,84 @@
-# MITRON-BANK-CREDIT-CARD-ANALYSIS
+# 📊 Mitron Bank Credit Card Analysis
 
-About Mitron Bank
+## 🏦 Project Overview
+Mitron Bank, a legacy financial institution headquartered in Hyderabad, aims to launch a new line of credit cards to expand its market presence. This project involves a comprehensive analysis of customer demographic and transactional data to generate **data-driven insights and recommendations** that will guide the bank’s credit card product strategy.
 
-Mitron Bank is a legacy financial institution headquartered in Hyderabad. They want to introduce a new line of credit cards, aiming to broaden its product offerings and reach in the financial market.
+---
 
-Objective of the Project
+## 🎯 Objective
 
-The objective is to analyze this data and provide actionable, data-driven recommendations to guide Mitron Bank in tailoring the new credit cards to customer needs and market trends.
+- Understand customer demographics and classify them meaningfully.
+- Analyze income utilization to identify customers with high credit card potential.
+- Discover key spending patterns across various segments (age, gender, occupation, city, etc.).
+- Identify top customer segments most likely to benefit from targeted credit card offers.
+- Recommend credit card features based on analysis and secondary market research.
 
-PROBLEM STATEMENT
+---
 
-Demographic classification: Classify the customers based on available demography such as age group, gender, occupation etc. and provide insights based on them.
+## 🛠️ Tools & Technologies Used
 
-Avg income utilisation %: Find the average income utilisation % of customers (avg_spends/avg_income). This will be your key metric. The higher the average income utilisation %, the more is their likelihood to use credit cards.
+- **Python**
+- **Pandas, NumPy**
+- **Seaborn, Matplotlib**
+- **Jupyter Notebook**
+- **MS Excel** (for validation and summaries)
 
-Spending Insights: Where do people spend money the most? Does it have any impact due to occupation, gender, city, age etc.? This can help you to add relevant credit card features for specific target groups.
+---
 
-Key Customer Segments: By doing above, you should be able to identify and profile key customer segments that are likely to be the highest-value users of the new credit cards. This includes understanding their demographics, spending behaviours, and financial preferences.
+## 📂 Problem Statements & Approach
 
-Credit Card Feature Recommendations: Provide recommendations on what key features should be included in the credit card which will improve the likelihood of credit card usage. This should be backed by the insights from data provided and also some secondary research on the internet for this.
+### 1. 🧍 Demographic Classification
+- Segmented users by **age group**, **gender**, **occupation**, and **city**.
+- Visualized distributions to uncover spending trends across segments.
 
+### 2. 💳 Income Utilization Analysis
+- Calculated **Income Utilization %**:  
+  `avg_spends / avg_income`
+- Used this as a **core metric** to rank users' likelihood of using credit cards.
 
-INSIGHTS AFTER ANALYSIS
+### 3. 🛒 Spending Insights
+- Identified top **spending categories** and **payment modes**.
+- Analyzed spending behavior by **occupation**, **city**, and **gender**.
 
-Most spending age group is 35-45.
+### 4. 🔑 Key Customer Segments
+- **Salaried IT professionals (Males, age 35–45)** in **Mumbai, Delhi NCR, and Bengaluru** show the highest potential.
+- Created clear customer personas based on aggregated data.
 
-Most spending gender is Male followed by Female
+### 5. 📌 Feature Recommendations
+Based on insights and market research:
+- Rewards on **Bills**, **Groceries**, and **Electronics**.
+- **City-based cashback offers** for Tier 1 cities.
+- Higher **credit limits** and tech perks for salaried IT professionals.
+- EMI offers during peak spending months (**September–October**).
+- Multiple payment mode integrations (UPI, Debit, Net Banking).
 
-Salaried IT Employees (male) is spending more
+---
 
-Top 3 payment types are:
-1. Credit card
-2. UPI
-3. Debit card
+## 🔍 Key Insights
 
-Top 3 cities are:
-1. Mumbai
-2. Delhi NCR
-3. Begaluru
+| Insight Category     | Observation |
+|----------------------|-------------|
+| 🧑 Age Group         | 35–45 years spend the most |
+| 🚻 Gender            | Males > Females in average spend |
+| 👔 Occupation        | Salaried IT Employees spend the most |
+| 🏙️ Top Cities        | Mumbai, Delhi NCR, Bengaluru |
+| 💸 Top Spend Categories | Bills, Groceries, Electronics |
+| 🗓️ Peak Months        | September, August, October |
+| 💳 Payment Modes     | Credit Card, UPI, Debit Card |
 
-Top spending occupations are:
-1. Salaried IT Employees
-2. Freelancers
-3. Salaried other employees
+---
 
-Top spendig Categories are:
-1. Bills
-2. Groceries
-3. Electronics
+## 📬 Recommendations to Mitron Bank
 
-Top spending months are:
-1. September
-2. August
-3. October
+- **Target IT professionals** aged 35–45 with customized rewards.
+- Design cards with benefits in **Bills, Groceries, Electronics**.
+- Launch **seasonal campaigns** around September–October.
+- Provide flexible payment options & app-based offers in Tier 1 cities.
+
+---
+
+## 🙋 About Me
+
+I am an aspiring Data Analyst with hands-on experience in real-world business problem-solving using data.  
+Feel free to connect with me on www.linkedin.com/in/ankitkumar2511
+---
