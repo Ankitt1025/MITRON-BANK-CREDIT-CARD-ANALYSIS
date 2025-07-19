@@ -21,8 +21,7 @@ Mitron Bank, a legacy financial institution headquartered in Hyderabad, aims to 
 - **Pandas, NumPy**
 - **Seaborn, Matplotlib**
 - **Jupyter Notebook**
-- **MS Excel** (for validation and summaries)
-
+  
 ---
 
 ## 📂 Problem Statements & Approach
