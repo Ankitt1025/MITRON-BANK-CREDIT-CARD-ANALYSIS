@@ -25,7 +25,7 @@ INSIGHTS AFTER ANALYSIS
 
 Most spending age group is 35-45.
 
-Moat spending gender is Male followed by Female
+Most spending gender is Male followed by Female
 
 Salaried IT Employees (male) is spending more
 
